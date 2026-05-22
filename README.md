@@ -1,8 +1,8 @@
-# BASAR Dynamic MRTA
+# BASAR Dynamic Task Assignment
 
-This repository contains the source code used for the RAL submission on dynamic heterogeneous multi-robot task allocation and scheduling. The code focuses on learning-based decision making for dynamic task arrivals, together with the evaluation scripts used for SA-BT, SA-AT, and MA-AT benchmark settings.
+This repository contains the source code for BASAR, a learning-based framework for dynamic heterogeneous task assignment and scheduling. The code focuses on online decision making under dynamic task arrivals, together with the evaluation scripts used for SA-BT, SA-AT, and MA-AT benchmark settings.
 
-This package is prepared for anonymous code release. It intentionally avoids author, institution, and local-machine metadata.
+This package is prepared for anonymous review. It intentionally avoids author names, affiliations, institution-specific metadata, and local-machine paths.
 
 Large generated datasets, pretrained checkpoints, intermediate figures, logs, and bulk result files are not included in this submission package because of the upload-size limit. They can be regenerated or placed back under the expected paths before running evaluation. Lightweight table sources under `docs/tables/` are included for reproducibility.
 
@@ -10,7 +10,7 @@ Large generated datasets, pretrained checkpoints, intermediate figures, logs, an
 
 ```text
 .
-├── env/                    # Dynamic MRTA environment and task simulation
+├── env/                    # Dynamic task-assignment environment and simulation
 ├── scripts/
 │   ├── sa_bt/              # Single-agent, bounded-time benchmark scripts
 │   ├── sa_at/              # Single-agent, arrival-time scaling scripts
