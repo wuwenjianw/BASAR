@@ -1,0 +1,5 @@
+{
+  "preset": "single_self_attention_global_mlp",
+  "cross_attention_mode": "shared_self",
+  "global_decoder_mode": "mlp"
+}

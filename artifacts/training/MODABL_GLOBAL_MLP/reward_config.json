@@ -1,0 +1,11 @@
+{
+  "preset": "baseline",
+  "description": "Full reward with shared term, local contribution, and revealed-set conditioning.",
+  "enable_shared_term": true,
+  "enable_local_contribution": true,
+  "use_revealed_task_set": true,
+  "local_weight": 12.0,
+  "phi_beta": 0.5,
+  "zero_marginal_epsilon": 1e-08,
+  "positive_credit_epsilon": 1e-08
+}

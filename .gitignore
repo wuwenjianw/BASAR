@@ -1,0 +1,32 @@
+# Datasets, checkpoints, and generated experiment outputs
+data/
+MA-AT_TestSets/
+SA-AT_TestSets/
+SA-BT_TestSets/
+*.pkl
+artifacts/models/
+artifacts/results/
+model/
+
+# Generated paper build artifacts
+docs/figures/
+docs/tables/*.aux
+docs/tables/*.fdb_latexmk
+docs/tables/*.fls
+docs/tables/*.log
+docs/tables/*.pdf
+*.gif
+*.mp4
+
+# Runtime and local files
+*.log
+*.pid
+.env
+.venv/
+venv/
+.DS_Store
+
+# Python build/cache files
+__pycache__/
+*.py[cod]
+*$py.class

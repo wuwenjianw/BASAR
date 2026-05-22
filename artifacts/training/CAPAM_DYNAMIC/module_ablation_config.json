@@ -1,0 +1,5 @@
+{
+  "preset": "baseline",
+  "cross_attention_mode": "dual_cross",
+  "global_decoder_mode": "attention"
+}

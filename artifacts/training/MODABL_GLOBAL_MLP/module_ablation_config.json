@@ -1,0 +1,5 @@
+{
+  "preset": "global_mlp",
+  "cross_attention_mode": "dual_cross",
+  "global_decoder_mode": "mlp"
+}

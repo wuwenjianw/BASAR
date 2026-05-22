@@ -1,0 +1,11 @@
+{
+  "preset": "static_full_penalty",
+  "description": "Replace revealed-set conditioning with static full-set penalties in dynamic scenes.",
+  "enable_shared_term": true,
+  "enable_local_contribution": true,
+  "use_revealed_task_set": false,
+  "local_weight": 12.0,
+  "phi_beta": 0.5,
+  "zero_marginal_epsilon": 1e-08,
+  "positive_credit_epsilon": 1e-08
+}

@@ -1,0 +1,11 @@
+{
+  "preset": "no_local",
+  "description": "Remove the local contribution term and keep only the shared/global reward.",
+  "enable_shared_term": true,
+  "enable_local_contribution": false,
+  "use_revealed_task_set": true,
+  "local_weight": 12.0,
+  "phi_beta": 0.5,
+  "zero_marginal_epsilon": 1e-08,
+  "positive_credit_epsilon": 1e-08
+}
